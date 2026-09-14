@@ -1,19 +1,136 @@
-# React + Vite
+Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website built with React, Vite, and Tailwind CSS.
 
-Currently, two official plugins are available:
+The portfolio showcases my background, skills, projects, and contact information while combining my interests in software development, graphic design, and culinary creativity.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+About the Project
 
-## React Compiler
+This project was created as part of my software development studies to practise building a modern React application using reusable components, props, state, Tailwind CSS, and interactive UI features.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+The design is based on a custom Figma mockup and uses an earthy, playful visual style.
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
+Features
 
-## Expanding the ESLint configuration
+Light and dark mode toggle
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Smooth scrolling navigation
+
+Downloadable CV
+
+Animated and hover effects
+
+Project cards generated from JavaScript data
+
+Links to live project demos
+
+Contact form powered by Web3Forms
+
+GitHub, LinkedIn, and email contact links
+
+Custom illustrated avatar and visual branding
+
+The current version is designed primarily for desktop, with further responsive refinements planned.
+
+Built With
+
+React
+
+Vite
+
+Tailwind CSS
+
+JavaScript
+
+Font Awesome
+
+Web3Forms
+
+Figma
+
+React Concepts Used
+
+This project helped me practise:
+
+React components
+
+Props
+
+useState
+
+Conditional rendering
+
+Mapping arrays to reusable UI
+
+Event handling
+
+Dark/light mode state
+
+Component-based project structure
+
+Project Structure
+
+src/
+├── assets/
+├── components/
+│   ├── About.jsx
+│   ├── Contact.jsx
+│   ├── Footer.jsx
+│   ├── Hero.jsx
+│   ├── Navbar.jsx
+│   ├── Projects.jsx
+│   └── Skills.jsx
+├── App.jsx
+├── index.css
+└── main.jsx
+
+Featured Projects
+
+Menu-Like Website
+
+A responsive menu-style website designed to showcase books for sale, with clear categories, book details, and an easy-to-browse layout.
+
+Website Redesign
+
+A modern website redesign focused on improved layout, usability, responsiveness, and visual presentation.
+
+Digital Clock
+
+A JavaScript digital clock featuring real-time updates, date display, 12/24-hour format, and theme controls.
+
+QUIZZO
+
+An interactive group quiz application with multiple topics, scoring, answer reviews, and a responsive interface.
+
+Getting Started
+
+To run the project locally:
+
+git clone https://github.com/lusizosibiya/personal-portfolio.git
+cd personal-portfolio
+npm install
+npm run dev
+
+Then open the local Vite development URL shown in the terminal.
+
+Live Demo
+
+Live portfolio link: Add deployed URL here after deployment
+
+Contact
+
+GitHub: https://github.com/lusizosibiya
+
+LinkedIn: https://www.linkedin.com/in/lusizo-sibiya-a9b8543b0
+
+Email: sibiyalusizo2003@gmail.com
+
+Author
+
+Lusizo Sibiya
+
+Aspiring Software Developer • Self-Taught Graphic Designer • Culinary Creative
+
+License
+
+This project was created for educational and portfolio purposes.
