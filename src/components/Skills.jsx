@@ -6,9 +6,9 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faPalette } from "@fortawesome/free-solid-svg-icons";
 import { faLock } from "@fortawesome/free-solid-svg-icons";
 
-function Skills(darkMode) {
+function Skills({ darkMode }) {
     return (
-        <section id="skills" className="bg-[#ECE4DA] px-5 py-16 sm:px-6 sm:py-20 dark:bg-[#444A34]">
+        <section id="skills" className="bg-[#E9E0D4] px-5 py-16 sm:px-6 sm:py-20 dark:bg-[#444A34] w-full">
             <div className="flex flex-col items-center text-center">
                 <h1 className="font-['Amatic_SC'] text-7xl leading-none sm:text-8xl text-[#201911] dark:text-white">
                     SKILLS

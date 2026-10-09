@@ -1,6 +1,6 @@
 function About() {
     return (
-        <section id="about" className="bg-[#ECE4DA] px-5 py-16 sm:px-6 sm:py-20 dark:bg-[#444A34]">
+        <section id="about" className="bg-[#E9E0D4] px-5 py-16 sm:px-6 sm:py-20 dark:bg-[#444A34] w-full">
             <div className="mx-auto flex max-w-4xl flex-col items-center text-center">
                 <h1 className="font-['Amatic_SC'] text-7xl leading-none sm:text-9xl md:text-[150px] text-[#201911] dark:text-white">ABOUT ME</h1>
                 <p className="mt-6 text-base leading-relaxed sm:text-lg text-[#201911] dark:text-white">

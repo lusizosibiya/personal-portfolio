@@ -12,7 +12,7 @@ function App() {
   const [darkMode, setDarkMode] = useState(false);
 
   return (
-    <div className={darkMode ? "dark" : ""}>
+    <div className={`min-h-screen w-full max-w-none overflow-x-clip ${darkMode ? "dark" : ""}`}>
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode}/>
       <Hero darkMode={darkMode} />
       <About darkMode={darkMode} />
