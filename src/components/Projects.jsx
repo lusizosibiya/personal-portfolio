@@ -8,12 +8,34 @@ import quizzoImg from "../assets/quiz-project.png";
 import clockImg from "../assets/clock-project.png";
 import diamondImg from "../assets/diamond-project.png";
 import menuwebsiteImg from "../assets/menuwebsite-project.png";
+import eatcImg from "../assets/eatc-project.jpeg";
+import notesImg from "../assets/notes-project.jpeg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft, faChevronRight, faArrowUpRightFromSquare, } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const projects = [
+    {
+        title: "Private Notes",
+        description: "A private notes app with account registration, login and a protected dashboard for creating, viewing, editing and deleting notes.",
+        type: "Individual Project",
+        image: notesImg,
+        technologies: ["React", "Tailwind CSS", "Node.js", "Express.js", "Supabase"],
+        live: "https://private-notes-app-ten.vercel.app/#/login",
+        github: "",
+    },
+
+    {
+        title: "EATC Booking System",
+        description: "A booking and reserving system built as an individual project.",
+        type: "Individual Project",
+        image: eatcImg,
+        technologies: ["React", "Tailwind CSS", "Node.js", "Express.js"],
+        live: "https://eatc-booking-system.netlify.app/",
+        github: "",
+    },
+
     {
         title: "E-Commerce App",
         description: "A collaborative React e-commerce application featuring product browsing, cart management and checkout functionality.",
@@ -27,7 +49,7 @@ const projects = [
     {
         title: "CryptX Dashboard",
         description: "A responsive cryptocurrency dashboard featuring market data, metric cards, charts and transaction information.",
-        type: "Individual Project",
+        type: "Group Project",
         image: cryptxImg,
         technologies: ["React", "Tailwind CSS"],
         live: "https://cryptxprojectlusizo.netlify.app/",

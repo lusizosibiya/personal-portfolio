@@ -34,84 +34,42 @@ function Navbar({ darkMode, setDarkMode }) {
                 <div className="flex items-center gap-3 lg:hidden">
 
                     {/* Dark Mode Toggle */}
-                    <button
-                        onClick={() => setDarkMode(!darkMode)}
-                        className="relative h-9 w-[68px] shrink-0 rounded-full bg-[#444A34] p-1"
-                        aria-label="Toggle dark mode"
-                    >
-                        <span
-                            className={`absolute top-1 flex h-7 w-7 items-center justify-center rounded-full bg-white transition-all duration-300 ${
+                    <button onClick={() => setDarkMode(!darkMode)} className="relative h-9 w-[68px] shrink-0 rounded-full bg-[#444A34] p-1" aria-label="Toggle dark mode">
+                        <span className={`absolute top-1 flex h-7 w-7 items-center justify-center rounded-full bg-white transition-all duration-300 ${
                                 darkMode ? "left-9" : "left-1"
-                            }`}
-                        >
-                            <FontAwesomeIcon
-                                icon={darkMode ? faMoon : faSun}
-                                className="text-sm text-[#201911]"
-                            />
+                            }`}>
+                            <FontAwesomeIcon icon={darkMode ? faMoon : faSun} className="text-sm text-[#201911]"/>
                         </span>
                     </button>
 
                     {/* Hamburger Button */}
-                    <button
-                        onClick={() => setMenuOpen(!menuOpen)}
-                        className="flex h-10 w-10 items-center justify-center text-xl"
-                        aria-label="Open navigation menu"
-                    >
-                        <FontAwesomeIcon
-                            icon={menuOpen ? faXmark : faBars}
-                        />
+                    <button onClick={() => setMenuOpen(!menuOpen)} className="flex h-10 w-10 items-center justify-center text-xl" aria-label="Open navigation menu">
+                        <FontAwesomeIcon icon={menuOpen ? faXmark : faBars}/>
                     </button>
-
                 </div>
-
             </div>
 
 
             {/* MOBILE MENU */}
-            <div
-                className={`overflow-hidden transition-all duration-300 lg:hidden ${
-                    menuOpen
+            <div className={`overflow-hidden transition-all duration-300 lg:hidden ${ menuOpen
                         ? "max-h-64 border-t border-stone-300"
                         : "max-h-0"
-                } dark:border-stone-700`}
-            >
+                } dark:border-stone-700`}>
                 <div className="flex flex-col px-6 py-4">
-
-                    <a
-                        href="#about"
-                        onClick={() => setMenuOpen(false)}
-                        className="py-3"
-                    >
+                    <a href="#about"  onClick={() => setMenuOpen(false)} className="py-3">
                         About
                     </a>
-
-                    <a
-                        href="#projects"
-                        onClick={() => setMenuOpen(false)}
-                        className="py-3"
-                    >
+                    <a href="#projects" onClick={() => setMenuOpen(false)} className="py-3">
                         Projects
                     </a>
-
-                    <a
-                        href="#skills"
-                        onClick={() => setMenuOpen(false)}
-                        className="py-3"
-                    >
+                    <a href="#skills" onClick={() => setMenuOpen(false)} className="py-3">
                         Skills
                     </a>
-
-                    <a
-                        href="#contact"
-                        onClick={() => setMenuOpen(false)}
-                        className="py-3"
-                    >
+                    <a href="#contact" onClick={() => setMenuOpen(false)} className="py-3">
                         Contact
                     </a>
-
                 </div>
             </div>
-
         </nav>
     );
 }
